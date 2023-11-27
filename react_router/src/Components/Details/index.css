@@ -1,0 +1,32 @@
+.details{
+    width: 100%;
+    padding: 50px 100px;
+    background-color: antiquewhite;
+    height: 100vh;
+}
+.details .wrapper{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: auto;
+
+}
+.details .card{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.details .card .image{
+    width: 50%;
+}
+.details .card .texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.details .card .image img{
+    width: 100%;
+}

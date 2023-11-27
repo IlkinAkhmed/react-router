@@ -1,0 +1,27 @@
+.wrapper{
+    padding: 100px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+h1{
+    padding-top: 100px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.card{
+    width: 18%;
+    background-color: beige;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.image img{
+    width: 100%;
+}
+.texts{
+    text-align: center ;
+    padding: 20px 0;
+}

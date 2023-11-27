@@ -1,0 +1,10 @@
+footer{
+    width: 100%;
+    padding: 30px 100px;
+    background-color:aquamarine;
+}
+footer ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
