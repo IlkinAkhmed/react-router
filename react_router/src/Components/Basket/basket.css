@@ -1,33 +1,39 @@
-.details{
+.basket{
     width: 100%;
     padding: 50px 100px;
     background-color: antiquewhite;
-    min-height: 92vh;
+    min-height: 100vh;
 }
-.details .wrapper{
+.basket .wrapper{
     width: 60%;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     gap: 15px;
     margin: auto;
 
 }
-.details .card{
-    width: 60%;
+.basket .card{
+    width: 70%;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
-.details .card .image{
+.basket .card .image{
     width: 50%;
 }
-.details .card .texts{
+.basket .card .texts{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 50%;
 }
-.details .card .image img{
+.buttons button{
+    margin-left: 10px;
+    padding: 0 15px;
+    border-radius: 10px;
+}
+.basket .card .image img{
     width: 100%;
 }

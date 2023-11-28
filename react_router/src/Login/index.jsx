@@ -5,7 +5,7 @@ import "./index.css"
 function Login() {
   return (
     <>
-    <Link to={'/shop'} >back to home</Link>
+    <Link to={'/'} >back to home</Link>
     <form action="">
         <label htmlFor="">Username</label><br />
         <input type="text" /><br />
